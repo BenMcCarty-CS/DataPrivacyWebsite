@@ -10,7 +10,7 @@
         <a href="resources.php" <?php if ($activePage === 'resources') { echo 'class="active"'; }?>>Resources</a>
         <a href="data_mirror_optin.php" <?php if ($activePage === 'interactive') { echo 'class="active"'; }?>>Watch It Happen</a>
         <a href="sources.php" <?php if ($activePage === 'sources') { echo 'class="active"'; }?>>Sources</a>
-        <button id="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
+        <button id="theme-toggle" type="button" aria-label="Toggle dark mode">
             <span id="theme-icon"></span>
         </button>
     </nav>

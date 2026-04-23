@@ -23,4 +23,5 @@ document.addEventListener('DOMContentLoaded', () => {
     const theme = document.documentElement.getAttribute('data-theme');
     applyBodyTheme(theme);
     document.getElementById('theme-icon').textContent = theme === 'dark' ? '☀' : '☽';
+    document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
 });
