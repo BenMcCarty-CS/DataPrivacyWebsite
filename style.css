@@ -1,0 +1,186 @@
+[data-theme="light"] {
+    background: #ffffff;
+    color: #111111;
+    --color-text-primary: #111111;
+    --color-text-secondary: #555555;
+    --color-text-danger: #A32D2D;
+    --color-background-primary: #ffffff;
+    --color-background-secondary: #f5f5f5;
+    --color-background-danger: #fef2f2;
+    --color-border-primary: #cccccc;
+    --color-border-secondary: #dddddd;
+    --color-border-tertiary: #e5e5e5;
+    --color-border-danger: #fca5a5;
+    --font-sans: system-ui, -apple-system, sans-serif;
+    --border-radius-md: 6px;
+    --border-radius-lg: 10px;
+}
+
+[data-theme="dark"] {
+    background: #111111;
+    color: #f1f1f1;
+    --color-text-primary: #f1f1f1;
+    --color-text-secondary: #aaaaaa;
+    --color-text-danger: #E24B4A;
+    --color-background-primary: #1e1e1e;
+    --color-background-secondary: #2a2a2a;
+    --color-background-danger: #3a1a1a;
+    --color-border-primary: #444444;
+    --color-border-secondary: #333333;
+    --color-border-tertiary: #2a2a2a;
+    --color-border-danger: #7a3030;
+    --font-sans: system-ui, -apple-system, sans-serif;
+    --border-radius-md: 6px;
+    --border-radius-lg: 10px;
+}
+
+body {
+    background-color: var(--color-background-primary);
+    color: var(--color-text-primary);
+}
+
+.dm-wrap { padding: 2rem 0; font-family: var(--font-sans); }
+.dm-optin { text-align: center; max-width: 480px; margin: 0 auto; }
+.dm-optin h1 { font-size: 22px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 0 0.75rem; }
+.dm-optin p { font-size: 15px; color: var(--color-text-secondary); line-height: 1.7; margin: 0 0 1.5rem; }
+.dm-warning { background: var(--color-background-danger); border: 0.5px solid var(--color-border-danger); border-radius: var(--border-radius-md); padding: 0.75rem 1rem; font-size: 13px; color: var(--color-text-danger); margin-bottom: 1.5rem; }
+.dm-btn { background: var(--color-background-primary); border: 0.5px solid var(--color-border-secondary); border-radius: var(--border-radius-md); padding: 0.6rem 1.5rem; font-size: 15px; font-weight: 500; cursor: pointer; color: var(--color-text-primary); }
+.dm-btn:hover { background: var(--color-background-secondary); }
+.dm-btn.primary { background: #E24B4A; border-color: #A32D2D; color: #fff; }
+.dm-btn.primary:hover { background: #A32D2D; }
+.dm-results { display: none; }
+.dm-results.visible { display: block; }
+.dm-header { margin-bottom: 1.5rem; }
+.dm-header h2 { font-size: 18px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 0.25rem; }
+.dm-header p { font-size: 14px; color: var(--color-text-secondary); margin: 0; }
+.dm-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; }
+.dm-card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; opacity: 0; transform: translateY(8px); transition: opacity 0.4s, transform 0.4s; }
+.dm-card.shown { opacity: 1; transform: translateY(0); }
+.dm-card-top { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 0.5rem; }
+.dm-label { font-size: 12px; color: var(--color-text-secondary); text-transform: none; letter-spacing: 0; }
+.dm-badge { font-size: 11px; padding: 2px 8px; border-radius: var(--border-radius-md); background: var(--color-background-danger); color: var(--color-text-danger); border: 0.5px solid var(--color-border-danger); white-space: nowrap; }
+.dm-value { font-size: 15px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 0.5rem; word-break: break-word; }
+.dm-why { font-size: 12px; color: var(--color-text-secondary); line-height: 1.6; border-top: 0.5px solid var(--color-border-tertiary); padding-top: 0.5rem; margin-top: 0.5rem; }
+.dm-why strong { font-weight: 500; color: var(--color-text-danger); }
+.dm-count { font-size: 13px; color: var(--color-text-secondary); margin: 1.5rem 0 0.5rem; }
+.dm-cta { margin-top: 1.5rem; padding-top: 1.5rem; border-top: 0.5px solid var(--color-border-tertiary); background: var(--color-background-secondary); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; }
+.dm-cta p { font-size: 13px; color: var(--color-text-secondary); margin: 0 0 0.75rem; line-height: 1.6; }
+
+.home-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin: 2rem 1.5rem;
+}
+
+.news-sidebar {
+    width: 220px;
+    flex-shrink: 0;
+    border-right: 1px solid currentColor;
+    padding-right: 1.25rem;
+    opacity: 0.85;
+}
+
+.news-sidebar-title {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin: 0 0 0.75rem;
+}
+
+.news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.news-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid currentColor;
+    opacity: 0.7;
+}
+
+.news-item:last-child {
+    border-bottom: none;
+}
+
+.news-source {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.news-headline {
+    font-size: 0.82rem;
+    line-height: 1.4;
+    text-decoration: none;
+    color: inherit;
+}
+
+.news-headline:hover {
+    text-decoration: underline;
+}
+
+.home-layout .about-container {
+    margin: 0;
+    padding: 0;
+    flex: 1;
+}
+
+.about-container {
+    max-width: 720px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+    line-height: 1.7;
+}
+.about-container h2 {
+    margin-bottom: 0.5rem;
+}
+.about-container p {
+    margin-bottom: 1.25rem;
+}
+.about-section {
+    margin-bottom: 2rem;
+}
+.concern-list {
+    padding-left: 1.5rem;
+}
+.concern-list li {
+    margin-bottom: 0.5rem;
+}
+
+#title-image { max-width: 200px; max-height: 200px; }
+.header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.header img {
+    border-radius: 15px;
+}
+.navbar {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 0.25rem 0.75rem;
+    border-radius: 6px;
+    color: var(--color-text-primary);
+}
+
+.navbar a.active {
+    background-color: darkslategrey;
+    color: #ffffff;
+}
+
+[data-theme="dark"] .news-sidebar { opacity: 1; }
+[data-theme="dark"] .news-item { opacity: 0.9; }
+
+[data-theme="dark"] a:visited { color: #c084fc; }
