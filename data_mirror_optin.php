@@ -24,14 +24,14 @@
         </div>
         <h1>What does your browser reveal about you?</h1>
         <p>Every website you visit can silently collect data from your browser — without asking. Click below to see exactly what a site like this one knows about you the moment you land on it.</p>
-        <div class="dm-warning">No data is sent to any server. Everything you see stays in your browser.</div>
+        <div class="dm-warning">No data is sent to any server. Everything you see stays in your browser. It will only get collected if you click the button below.</div>
         <button class="dm-btn primary" id="reveal-btn">Show me what you know</button>
       </div>
 
       <div class="dm-results" id="results">
         <div class="dm-header">
           <h2>Here's what this page collected about you</h2>
-          <p>All of this was gathered the moment you loaded this page — without you clicking anything.</p>
+          <p>All of this was gathered the moment you clicked the button.</p>
         </div>
         <div class="dm-grid" id="cards"></div>
         <p class="dm-count" id="count-line"></p>
