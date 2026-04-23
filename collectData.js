@@ -64,6 +64,12 @@ const dataPoints = [
         key: "cookies",
         badge: "Tracking method",
         why: "<strong>Why companies want this:</strong> Tells the site exactly where you came from -- a search query, a social media post, or another website -- revealing intent and interests."
+    },
+    {
+        label: "Referrer",
+        key: "referrer",
+        badge: "Always collected",
+        why: "<strong>Why companies want this:</strong> Reveals which site, search engine, or link sent you here -- exposing your browsing path and intent before you've done anything on the page."
     }
 ];
 

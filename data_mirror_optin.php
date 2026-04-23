@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Watch It Happen | Data Privacy Is A Right</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="theme.js"></script>
+    <link rel="stylesheet" href="style.css?v=<?php echo filemtime('style.css'); ?>">
+    <script src="theme.js?v=<?php echo filemtime('theme.js'); ?>"></script>
     <script src="collectData.js"></script>
 </head>
 <body>
@@ -41,5 +41,8 @@
         </div>
       </div>
     </div>
+    <p style="text-align: center; font-size: 13px; color: var(--color-text-secondary); margin: 2rem 0;">
+        View the <a href="https://github.com/BenMcCarty-CS/DataPrivacyWebsite" target="_blank" rel="noopener">source code</a> for how this page collects your data.
+    </p>
 </body>
 </html>

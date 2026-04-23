@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Sources | Data Privacy Is A Right</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="theme.js"></script>
+    <link rel="stylesheet" href="style.css?v=<?php echo filemtime('style.css'); ?>">
+    <script src="theme.js?v=<?php echo filemtime('theme.js'); ?>"></script>
 </head>
 <body>
     <?php $activePage = 'sources'; ?>
