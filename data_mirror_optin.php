@@ -31,7 +31,7 @@
       <div class="dm-results" id="results">
         <div class="dm-header">
           <h2>Here's what this page collected about you</h2>
-          <p>All of this was gathered the moment you clicked the button.</p>
+          <p>All of this was gathered the moment you clicked the button. But I didn't send any of this to an external server. And this is just one person making this. Imagine how easy it is for bigger companies.</p>
         </div>
         <div class="dm-grid" id="cards"></div>
         <p class="dm-count" id="count-line"></p>

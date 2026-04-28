@@ -6,6 +6,7 @@
     <hr>
     <nav class="navbar">
         <a href="index.php" <?php if ($activePage === 'home') { echo 'class="active"'; } ?>>Home</a>
+        <a href="how.php" <?php if ($activePage === 'how') { echo 'class="active"'; } ?>>How It Works</a>
         <a href="about.php" <?php if ($activePage === 'about') { echo 'class="active"'; } ?>>About</a>
         <a href="resources.php" <?php if ($activePage === 'resources') { echo 'class="active"'; }?>>Resources</a>
         <a href="data_mirror_optin.php" <?php if ($activePage === 'interactive') { echo 'class="active"'; }?>>Watch It Happen</a>
