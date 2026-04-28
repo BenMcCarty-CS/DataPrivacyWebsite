@@ -39,6 +39,8 @@
             <div class="about-section">
                 <h4 class="section-header">Think About Your Internet Usage</h4>
                 <p>
+                    <strong>SAY NO TO COOKIES</strong>. Cookies are little bits of data that get stored in your browser.
+                    They can be accessed by any website you visit and are one of the easiest ways to be tracked across sites.
                     Using websites and apps blindly contributes to this epidemic.
                     Consider reading privacy policies and terms of service.
                     If they are long consider asking an AI agent to help summarize and simplify them into a more dense form that's more understandable.
