@@ -37,7 +37,7 @@
                     I am a Junior Computer Science student with a strong interest in how technology intersects with personal
                     rights and civil liberties. In the last year, I have grown increasingly concerned with how much
                     personal data is collected, stored, and monetized by social media platforms and other internet services
-                    — often without users fully understanding what they have agreed to.
+                    -- often without users fully understanding what they have agreed to.
                 </p>
                 <p>
                     This site is my attempt to make that reality more visible. Data collection is not abstract — it shapes
@@ -60,7 +60,7 @@
                     <li>Once data is collected and shared, users have very limited ability to retrieve or delete it.</li>
                 </ul>
                 <p>
-                    These are not fringe concerns — they are structural features of a business model built on surveillance.
+                    These are not fringe concerns -- they are structural features of a business model built on surveillance.
                     I made this site because I think more people deserve to understand that model and have real tools to
                     push back against it.
                 </p>
