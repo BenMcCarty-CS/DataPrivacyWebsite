@@ -49,6 +49,8 @@
             <div class="about-section">
                 <h2>Why Data Privacy?</h2>
                 <p>
+                    This builds on a lot of my research from A2. I saw a lot of very worrying things that just get accepted as normal.
+                    I don't feel comfortbale standing by and letting my peers and fellow humans be exploited for money and profits by faceless companies that don't face repercussions.
                     As I learned more about how modern platforms operate, a few things stood out to me:
                 </p>
                 <ul class="concern-list">
@@ -64,16 +66,8 @@
                 </p>
             </div>
 
-            <div class="about-section">
-                <h2>About This Site</h2>
-                <p>
-                    This project was built for A3 Advocacy Website assignment for CO300 in Spring 2026.
-                </p>
-                <p>
-                    No tracking scripts. No analytics. No cookies. This site collects nothing about you - because I don't want to be tracked. So I'll extend you the same courtesy.
-                </p>
-            </div>
         </div>
     </div>
+    <?php include 'footer.php'; ?>
 </body>
 </html>

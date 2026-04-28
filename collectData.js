@@ -3,72 +3,84 @@ const dataPoints = [
         label: "Browser",
         key: "browser",
         badge: "Always collected",
+        desc: "The app you use to browse the internet, like Chrome, Firefox, or Safari.",
         why: "<strong>Why companies want this:</strong> Used to tailor ads by device type, detect bots, and build your browser fingerprint -- a near-unique ID that tracks you across sites even without cookies."
     },
     {
         label: "Operating system",
         key: "os",
         badge: "Always collected",
+        desc: "The core software running your device — Windows, macOS, Android, or iOS.",
         why: "<strong>Why companies want this:</strong> Helps build your device fingerprint and target ads to desktop vs. mobile users with different buying behaviors."
     },
     {
         label: "Screen resolution",
         key: "screen",
         badge: "Always collected",
+        desc: "The number of pixels on your screen — basically how big and sharp your display is.",
         why: "<strong>Why companies want this:</strong> One of ~20 signals combined to create a browser fingerprint that identifies you without cookies."
     },
     {
         label: "Timezone",
         key: "timezone",
         badge: "Always collected",
+        desc: "The time zone your device is set to, which reveals roughly where in the world you are.",
         why: "<strong>Why companies want this:</strong> Reveals your approximate region even without GPS. Used to serve location-targeted ads and content."
     },
     {
         label: "Language",
         key: "language",
         badge: "Always collected",
+        desc: "The language your browser is configured to display — set in your device or browser settings.",
         why: "<strong>Why companies want this:</strong> Narrows your demographic profile -- language correlates with culture, nationality, and purchase intent."
     },
     {
         label: "Device type",
         key: "device",
         badge: "Always collected",
+        desc: "Whether you're visiting on a phone, tablet, or desktop computer.",
         why: "<strong>Why companies want this:</strong> Mobile users and desktop users see different ads. Advertisers pay more to target mobile users who can be reached by push notifications."
     },
     {
         label: "CPU cores",
         key: "cpu",
         badge: "Fingerprinting signal",
+        desc: "How many processing units your device's chip has — a rough measure of how powerful your hardware is.",
         why: "<strong>Why companies want this:</strong> Helps distinguish device models as a part of a fingerprint. Higher-core counts suggest higher-end devices -- a proxy for income."
     },
     {
         label: "Approximate RAM",
         key: "ram",
         badge: "Fingerprinting signal",
+        desc: "How much short-term memory your device has — determines how many things it can do at once.",
         why: "<strong>Why companies want this:</strong> Another income proxy. Advertisers pay premium rates to reach users of high-spec devices."
     },
     {
         label: "Connection type",
         key: "connection",
         badge: "Behavioral signal",
+        desc: "How you're connected to the internet right now — WiFi, 4G, 3G, etc.",
         why: "<strong>Why companies want this:</strong> WiFi vs. cellular usage patterns reveal home vs. away behavior, used to infer lifestyle and location habits."
     },
     {
         label: "Do Not Track setting",
         key: "dnt",
         badge: "Ironic signal",
+        desc: "A browser setting that sends a request to websites asking them not to track you. Most ignore it.",
         why: "<strong>Why companies want this:</strong> Most companies ignore this setting. Ironically, having it enabled makes you slightly more identifiable -- fewer people turn it on."
     },
     {
         label: "Cookies enabled",
         key: "cookies",
         badge: "Tracking method",
+        desc: "Cookies are tiny files websites store on your device to remember you between visits — like a name tag your browser wears.",
         why: "<strong>Why companies want this:</strong> Tells the site exactly where you came from -- a search query, a social media post, or another website -- revealing intent and interests."
     },
     {
         label: "Referrer",
         key: "referrer",
         badge: "Always collected",
+        desc: "The last page you were on before arriving here — automatically sent by your browser with every page load.",
         why: "<strong>Why companies want this:</strong> Reveals which site, search engine, or link sent you here -- exposing your browsing path and intent before you've done anything on the page."
     }
 ];
@@ -132,8 +144,9 @@ function reveal(){
         card.innerHTML = `
             <div class="dm-card-top">
                 <span class="dm-label">${dp.label}</span>
-                <span class="dm-badge">${dp.badge}</span>    
+                <span class="dm-badge">${dp.badge}</span>
             </div>
+            <div class="dm-desc">${dp.desc}</div>
             <div class="dm-value">${collected[dp.key]}</div>
             <div class="dm-why">${dp.why}</div>
             `;

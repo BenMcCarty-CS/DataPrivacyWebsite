@@ -44,5 +44,6 @@
     <p style="text-align: center; font-size: 13px; color: var(--color-text-secondary); margin: 2rem 0;">
         View the <a href="https://github.com/BenMcCarty-CS/DataPrivacyWebsite" target="_blank" rel="noopener">source code</a> for how this page collects your data.
     </p>
+    <?php include 'footer.php'; ?>
 </body>
 </html>
