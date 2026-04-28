@@ -34,7 +34,7 @@
         <div class="about-container">
             <div class="about-section">
                 <h2>How Does Your Data Get Collected?</h2>
-                <p>It's honestly pretty easy, I do it <a link="data_mirror_optin.php">here</a>. But I'll explain anyways</p>
+                <p>It's honestly pretty easy, I do it <a href="data_mirror_optin.php">here</a>. But I'll explain anyways</p>
                 <p>
                     Websites and apps can just ask. They'll often ask you for your name, email, phone number, and age when you log in or signup.
                     You give it to them for free and without a second thought other than "I guess I'll get another junk email".
@@ -67,7 +67,7 @@
                     Companies pay good money to sell to more specific demographics.
                     Advertisers themselves say this, from Marketing Evolution "If one pays a 30% premium for targeting, ... then a marketer can more than double their marketing ROI(return on investment)".
                     This direct connection to making more money the more they know about you is why they collect as much data from and about you they can.
-                    Google's revenue from selling ads in 2024 was 264.59 billion dollars. <a link="https://www.statista.com/statistics/266249/advertising-revenue-of-google/">Source</a>
+                    Google's revenue from selling ads in 2024 was 264.59 billion dollars. <a href="https://www.statista.com/statistics/266249/advertising-revenue-of-google/">Source</a>
                     A number that has never, since Google started in 2001, gone down.
                     It increases every year as they amass more user data and find new ways to track you.
                 </p>
@@ -81,18 +81,19 @@
                 </ol>
                 <p>
                     Option 1:
-                    <hr>
+                    <br>
                     We stand up for our rights and use options that prevent our tracking and data collection.
                     Using some of the suggestions on the <a href="resources.php">resources page</a>.
                     Take a second thought about what your data actually means.
                     <br>
+                    <br>
                     Option 2:
-                    <hr>
+                    <br>
                     We let tech companies run wild. AI makes smaller datasets more powerful.
                     We allow tech companies running wild become law as they lobby for looser restrictions and no regulations.
                     We allow AI-powered behavioral predictions, biometric data collection becomes required.
                     Anonymity becomes illegal, you are required to allow tech companies to know everything about you.
-                    <hr>
+                    <br>
                     Personally I'm choosing option 1. So join me in the fight to keep our right to privacy.
                 </p>
             </div>

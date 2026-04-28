@@ -50,7 +50,7 @@
                     Google chrome by default tracks browsing history, search terms, location, and financial information. <a href="https://surfshark.com/research/chart/data-collection-mobile-browsers">Source</a>
                     Turning off settings like: "Help improve", "Make searches and browsing better", and clearing cookies can all help prevent tracking.
                     Using less data hungry browsers like Brave, Opera, and DuckDuckGO can all reduce the tracking by default.
-                    Broswer extensions like <a href="https://ublockorigin.com/">uBlock Origin</a>, <a href="https://privacybadger.org/">Privacy Badger</a>, and <a href="https://duckduckgo.com/duckduckgo-help-pages/desktop/adding-duckduckgo-to-your-browser">DuckDuckGO Privacy Essentials</a> all help to further reduce the tracking.
+                    Browser extensions like <a href="https://ublockorigin.com/">uBlock Origin</a>, <a href="https://privacybadger.org/">Privacy Badger</a>, and <a href="https://duckduckgo.com/duckduckgo-help-pages/desktop/adding-duckduckgo-to-your-browser">DuckDuckGO Privacy Essentials</a> all help to further reduce the tracking.
                     Additionally these extensions can all help with loading websites faster by blocking the requests for excess things to be loaded as well.
                     However using too many can slow down browsing and make a more unique fingerprint. I personally use Firefox with tracking disabled, uBlock Origin, and Bitwarden.
                 </p>
@@ -72,7 +72,7 @@
                 </p>
                 <img class="inline-image" src="Images/BaptisteRobert.jpg" alt="Image of locations attained by russian hackers. From: https://x.com/fs0c131y/status/1876975966334964076">
                 <h4 class="section-header">Work For Legal Change</h4>
-                <p>Contact your local lawmakers. <a href="house.gov/representatives/find-your-representative">Find Your Representative</a></p>
+                <p>Contact your local lawmakers. <a href="https://house.gov/representatives/find-your-representative">Find Your Representative</a></p>
                 <p>Sample email:</p>
                 <p><strong>Subject:</strong> Request for Stronger Federal Data Privacy Legislation</p>
                 <p>Dear Representative [Last Name],</p>
